@@ -1,0 +1,163 @@
+:root{
+    --maincolor: yellow
+}
+
+:root{
+    --secondcolor: blue
+}
+.style{
+    color: var(--secondcolor);
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    border: 4px solid var(--maincolor);
+}
+.container-div{
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    text-align: center;
+}
+.first{
+    color: var(--secondcolor);
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    border: 4px dotted var(--maincolor);
+}
+.second{
+    color: var(--secondcolor);
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    border: 4px dotted var(--maincolor);
+}
+.third{
+    color: var(--secondcolor);
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    border: 4px dotted var(--maincolor);
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.ptag{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 10px;
+
+}
+img{
+    border-radius: 11px;
+   background-color: gray;
+   border-color: white;
+}
+.divs{
+    display: grid;
+    background-color: gray;
+    padding: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    border-color: black;
+    border-left: solid;
+    border-right: solid;
+    border-top: solid;
+    position: relative;
+    
+
+}
+    
+#div1{
+    border: solid;
+    padding: 15px;
+    border-radius: 11px;
+    background-color: white;
+    border-color: white;
+    margin-right: 90px;
+   
+
+}
+#div2{
+    border: solid;
+    padding: 15px;
+    border-radius: 11px;
+    background-color: white;
+    border-color: white;
+    margin-right: 90px;
+}
+#div3{
+    border: solid;
+    padding: 15px;
+    border-radius: 11px;
+    background-color: white;
+    border-color: white;
+    margin-right: 90px;
+
+}
+.divx{
+    display: grid;
+    background-color: gray;
+    padding: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    border-color: black;
+    border-left: solid;
+    border-right: solid;
+    border-bottom: none;
+    position: relative;
+}
+#fix{
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    border-radius: 11px;
+    border-color: yellow;
+    padding: 6px;
+    border:  1px solid;
+    margin-right: 1070px;
+    left: 0px;
+}
+.divz{
+    display: grid;
+    background-color: gray;
+    padding: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    border-color: black;
+    border-left: solid;
+    border-right: solid;
+    border-bottom: solid;
+    position: relative;
+    border-top: none;
+}
+.david:hover{
+    background-color: blue;
+    cursor: pointer;
+    color: red;
+}
+.david{
+    background-color: gold;
+}
+#div1:hover{
+    background-color: red;
+    cursor: pointer;
+    
+}
+#div2:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+#div3:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+.but:hover{
+    background-color: brown;
+    color: #fff;
+}
+.but{
+    width: 140px;
+    height: 100px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+}

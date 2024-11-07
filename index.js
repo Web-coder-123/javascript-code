@@ -1,0 +1,24 @@
+length = 10; width = 5;
+area = length * width;
+console.log("Length: ", length);
+ console.log("Width: ", width); 
+ console.log("Area: ", area);
+ let firstname, lastname, age, isstudent;
+  firstname = "John"; 
+lastName = "Doe";
+age = 20;
+isstudent = true;
+console.log(`My name is ${firstName} ${lastName}, I am ${age} years old, and it is ${isStudent} that I am a student.`);
+let favoriteMovies = [ "The Shawshank Redemption", "The Godfather", "The Dark Knight", "12 Angry Men", "Schindler's List" ];
+console.log("Favorite Movies:");
+ console.log(favoriteMovies);
+ console.log("First Movie:", favoriteMovies[0]);
+  console.log("Last Movie:", favoriteMovies[favoriteMovies.length - 1]);
+  let book = { title: "To Kill a Mockingbird", author: "Harper Lee", publishedYear: 1960, genres: ["Fiction", "Classic", "Novel"], isAvailable: true
+  };
+  console.log("Book Details:"); console.log(book);
+  console.log("Title:", book.title); 
+  console.log("Author:", book.author); 
+  console.log("Published Year:", book.publishedYear); 
+  console.log("Genres:", book.genres);
+   console.log("Is Available:", book.isAvailable);
