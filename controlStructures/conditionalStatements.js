@@ -29,3 +29,4 @@ if (paidSchoolFees && hasGoodHealth){
 } else { 
     console.log("Go back home")
 }
+console.log(aa)
