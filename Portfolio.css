@@ -39,10 +39,14 @@ header{
     color: white;
     border: none;
     border-radius: 11px;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
 }
 #touch:hover{
     background-color: red;
     cursor: pointer;
+    transform: scale(1.1,1.1);
+
 }
 #ferrari{
     width: 400px;
@@ -96,8 +100,16 @@ header{
     color: white;
     border: none;
     border-radius: 11px;
+    display: flex; 
+    justify-content: center; 
+    position: relative;
+    left: 550px; 
+    bottom: 80px;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
 }
 #contact:hover{
     cursor: pointer;
     background-color: red;
+    scale: 1.1;
 }
